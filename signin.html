@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Go Mobile</title>
+
+        <style>
+            body {
+                background-color: #236b8e;
+            
+            }
+            input {
+                width: 80%;
+                padding: 12px 20px;
+                margin: 4px 0;
+                box-sizing: border-box;
+            }
+            .container {
+                background: White;
+                text-align: center;
+                margin: auto;
+                margin-top: 10%;
+                width: 23%;
+                padding: 20px 30px;
+                box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            }
+            input[type="submit"] {
+                background-color: #236b8e;
+                border: #236b8e;
+                color: white;
+                padding: 12px 12px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            .center-logo {
+                width: 180px;
+                margin: 0 auto;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="shop.php" method="post">
+            <div class="container">
+                <div class="toolbar"><img class="center-logo" src="assets\img\logo1.png" alt="" /></div>
+                <h4>Sign In</h4>
+                <input type="text" name="email" placeholder="Email" required /><br />
+                <br />
+                <input type="password" name="password" placeholder="Password" required /><br />
+                <br />
+
+                <input type="submit" value="Continue" /><br />
+                <br />
+                <a style="color: #236b8e;" href="register.html">New Here?Create Account</a>
+            </div>
+        </form>
+    </body>
+</html>
